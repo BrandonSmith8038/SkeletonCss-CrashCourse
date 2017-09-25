@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SkeletonCSS Cheat Sheet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+    <style>
+        .columns, .column {
+            background: #f4f4f4;
+            border: 1px #ccc solid;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    
+    <!-- HEADINGS -->
+    <h1>Heading</h1>
+    <h2>Heading</h2>
+    <h3>Heading</h3>
+    <h4>Heading</h4>
+    <h5>Heading</h5>
+    <h6>Heading</h6>
+
+    <!-- FLOATING -->
+
+    <h2 class="u-pull-left">Left</h2>
+    <h2 class="u-pull-right">Right</h2>
+    <h2 class="u-cf">Clear Float</h2>
+
+    <!-- BUTTONS -->
+
+    <button>Button</button>
+    <input type="submit">
+    <input value="Submit" class="button">
+    <a href="#" class="button">Link</a>
+
+    <br>
+
+    <!-- PRIMARY BUTTONS -->
+    <button class="button-primary">Button</button>
+    <input type="submit" class="button-primary">
+    <input value="Submit" type="button" class="button-primary">
+    <a href="#" class="button button-primary">Link</a>
+
+    <br>
+
+    <!-- FULL WIDTH (not just for buttons) -->
+    <button class="u-full-width">Full Width Button</button>
+
+    <!-- LISTS -->
+    <ul>
+        <li>Home</li>   
+        <li>About</li>
+        <li>Services
+            <ul>
+                <li>Web Design</li>
+                <li>Programing</li>
+            </ul>
+        </li>
+        <li>Contact</li>
+    </ul>
+
+    <!-- CODE BLOCK -->
+    <pre>
+        <code>
+            body{
+                color: #fff;
+                background: #000;
+            }
+        </code>
+    </pre>
+
+    <table class="u-full-width">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>jdoe@gmail.com</td>
+                <td>Boston</td>
+            </tr>
+            <tr>
+                <td>Ellen Stevens</td>
+                <td>ellen@yahoo.com</td>
+                <td>New York</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- FORMS -->
+    <form>
+        <div>
+            <label>Name</label>
+            <input class="u-full-width" type="text" placeholder="Enter Name">
+        </div>
+        <div>
+            <label>Membership</label>
+            <select class="u-full-width" name="" id="">
+                <option value="1">Membership 1</option>
+                <option value="2">Membership 2</option>
+                <option value="3">Membership 3</option>
+            </select>
+        </div>
+        <div>
+            <label>Message</label>
+            <textarea class="u-full-width" placeholder="Enter Message"></textarea>
+        </div>
+        <div>
+            <label>
+                <input type="checkbox">
+                <span class="label-body">Subscribe to email</span>
+            </label>
+        </div>
+        <input class="u-full-width" type="submit" value="Submit">
+    </form>
+
+    <!-- GRID -->
+    <div class="row">
+        <div class="eight columns">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolor ipsa a reprehenderit vel dolorem modi itaque asperiores voluptate corporis, maxime laudantium repellat non ab eligendi odio blanditiis quae omnis dignissimos molestias accusantium illo praesentium distinctio cupiditate. Voluptas, qui officiis.
+        </div>
+        <div class="four columns">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro sit sequi saepe voluptates? Perspiciatis impedit laborum dolorem quis, tenetur accusantium!</div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="six columns">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur perspiciatis natus consequatur dignissimos dicta animi? Inventore officiis, harum nulla quia ut quibusdam mollitia nostrum, aspernatur atque, tempora voluptas repellendus provident.
+        </div>
+        <div class="six columns">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident veritatis saepe aliquam aperiam pariatur amet. Quae ullam asperiores possimus ut reprehenderit, dolore adipisci voluptates ex incidunt nihil officia perspiciatis consectetur.</div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="one-third column">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, modi!
+        </div>
+        <div class="one-third column">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, modi!
+        </div>
+        <div class="one-third column">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, modi!
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="one-third column">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, modi!
+        </div>
+        <div class="two-thirds column">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, modi!
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="one-half column">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos dignissimos a unde repellat inventore molestiae sint blanditiis facilis alias? Incidunt!
+        </div>
+        <div class="one-half column">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione atque quae, repellat perspiciatis fuga dicta ab debitis totam enim vero.</div>
+    </div>
+
+
+<div style="margin-top:500px;"></div>
+</body>
+</html>
